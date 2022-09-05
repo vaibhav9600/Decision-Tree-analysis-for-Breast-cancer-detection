@@ -1,4 +1,7 @@
 # Decision-Tree-analysis-for-Breast-cancer-detection
+## Example
+
+```ruby
 require 'decisiontree'
 
 attributes = ['Temperature']
@@ -42,3 +45,4 @@ decision = dec_tree.predict(test)
 puts "Predicted: #{decision} ... True decision: #{test.last}"
 
 # => Predicted: angry ... True decision: angry
+```
